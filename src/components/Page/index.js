@@ -6,7 +6,7 @@ import Contact from '../Contact';
 import Resume from '../Resume';
 
 function Page({ currentPage }) {
-  const renderPage = () => {
+  const pageRender = () => {
     switch (currentPage.name) {
       case 'About':
         return <About />;
@@ -23,8 +23,7 @@ function Page({ currentPage }) {
 
   return (
     <section>
-      <h2>{currentPage.name}</h2>
-      <PageContent>{renderPage(currentPage)}</PageContent>
+      <PageContent>{pageRender()}</PageContent>
     </section>
   );
 }

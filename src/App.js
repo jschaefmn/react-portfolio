@@ -5,21 +5,32 @@ import Navigation from './components/Navigation';
 import Page from './components/Page';
 
 function App() {
+  const [pages] = useState([
+    { name: 'About' },
+    { name: 'Portfolio' },
+    { name: 'Contact' },
+    { name: 'Resume' },
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='content'>
+        <header>
+          <Header>
+            <Navigation
+              pages={pages}
+              setCurrentPage={setCurrentPage}
+              currentPage={currentPage}>
+            </Navigation>
+          </Header>
+        </header>
+        <main className='components'>
+          <Page currentPage={currentPage}></Page>
+        </main>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
