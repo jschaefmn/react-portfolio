@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h2
+      id="portfolio"
+    >
+      Portfolio
+    </h2>
+    <div
+      class="project-flex"
+    >
+      <div>
+        <p
+          class="project-title"
+        >
+          Run Buddy | 
+          <a
+            href="https://github.com/jschaefmn/run-buddy"
+          >
+            GitHub
+          </a>
+           | 
+          <a
+            href="https://jschaefmn.github.io/run-buddy/"
+          >
+            View Project
+          </a>
+        </p>
+        <img
+          alt="Run Buddy"
+          class="project-img"
+          src="run-buddy.png"
+        />
+      </div>
+      <div>
+        <p
+          class="project-title"
+        >
+          Suds on Sale | 
+          <a
+            href="https://github.com/jschaefmn/suds-on-sale"
+          >
+            GitHub
+          </a>
+           | 
+          <a
+            href="https://group-project-dos.herokuapp.com/"
+          >
+            View Project
+          </a>
+        </p>
+        <img
+          alt="Suds on Sale"
+          class="project-img"
+          src="suds-on-sale.png"
+        />
+      </div>
+      <div>
+        <p
+          class="project-title"
+        >
+          Social Network API Demonstration | 
+          <a
+            href="https://github.com/jschaefmn/social-network-api"
+          >
+            GitHub
+          </a>
+           | 
+          <a
+            href="https://www.youtube.com/watch?v=WcHN1Leafq8"
+          >
+            View Project
+          </a>
+        </p>
+        <img
+          alt="Social Network API Demonstration"
+          class="project-img"
+          src="social-network-api.png"
+        />
+      </div>
+      <div>
+        <p
+          class="project-title"
+        >
+          Note Taker App | 
+          <a
+            href="https://github.com/jschaefmn/note-taker-app"
+          >
+            GitHub
+          </a>
+           | 
+          <a>
+            View Project
+          </a>
+        </p>
+        <img
+          alt="Note Taker App"
+          class="project-img"
+          src="note-taker-app.png"
+        />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

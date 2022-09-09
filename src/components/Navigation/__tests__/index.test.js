@@ -18,7 +18,7 @@ describe('Navigation component', () => {
 
 test('renders navigation links', () => {
   render(<Navigation />);
-  const aboutLink = screen.getByText(/About Me/i);
+  const aboutLink = screen.getByText(/About/i);
   const portfolioLink = screen.getByText(/Portfolio/i);
   const contactLink = screen.getByText(/Contact/i);
   const resumeLink = screen.getByText(/Resume/i);
