@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component matches snapshot 1`] = `
+<DocumentFragment>
+  <footer>
+    <h2>
+      Connect with me
+    </h2>
+    <ul>
+      <li>
+        © 2022 by Jacob Schaefbauer
+      </li>
+      <li>
+        <a
+          href="https://github.com/jschaefmn"
+          rel="noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/jacob-schaefbauer-095107140/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://twitter.com/MrCoolJakey"
+        >
+          Twitter
+        </a>
+      </li>
+    </ul>
+  </footer>
+</DocumentFragment>
+`;
