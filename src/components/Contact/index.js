@@ -9,7 +9,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-      console.log({ [e.target.name]: e.target.value });
+      setFormState({ [e.target.name]: e.target.value });
     }
   };
 

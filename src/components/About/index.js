@@ -1,5 +1,5 @@
 import React from 'react';
-import headShot from '../../assets/headShot.png';
+import headShot from '../../assets/headshot.png';
 
 function About() {
     return (
@@ -8,7 +8,7 @@ function About() {
             <img src={headShot} className="my-2" style={{ width: "20%" }} alt="cover" />
             <div className="my-2">
                 <p>
-                    I am a full stack web developer in training with a background in hospitality and a passion for creating. I am a working towards a full-stack web development certificate at the University of Minnesota Coding Bootcamp, where I learned the skills needed to build web applications using HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, and React. I am currently seeking a position as a full stack web developer.
+                    I am a full stack web developer in training with a background in software/hardware touble-shooting and a passion for creating and problem solving. I am a working towards a full-stack web development certificate at the University of Minnesota Coding Bootcamp, where I learned the skills needed to build web applications using HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, and React. I am currently seeking a position as a full stack web developer.
                 </p>
             </div>
         </section>

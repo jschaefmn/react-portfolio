@@ -9,13 +9,13 @@ function Footer() {
           &copy; {new Date().getFullYear()} by Jacob Schaefbauer
         </li>
         <li>
-          <a href="https://github.com/jschaefmn" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/jschaefmn" target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/jacob-schaefbauer-095107140/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/jacob-schaefbauer-095107140/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
         <li>
-          <a href="https://twitter.com/MrCoolJakey">Twitter</a>
+          <a href="https://twitter.com/MrCoolJakey" target="_blank" rel="noopener noreferrer">Twitter</a>
         </li>
       </ul>
     </footer>
