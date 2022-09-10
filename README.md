@@ -8,4 +8,4 @@ This is a single page applciation built with React.js to showcase a portfolio of
 4. Run local instance of the React website by typing `npm start` in your terminal and the browser should automatically open a tab with the website populated
 
 # Deployment
-You can visit the website, <a href="https://jschaefmn.github.io/react-portfolio/>Here</a>
+You can visit the website, <a href="https://jschaefmn.github.io/react-portfolio/">Here</a>
